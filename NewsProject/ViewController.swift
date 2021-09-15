@@ -25,16 +25,12 @@ final class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        view.backgroundColor = .red
+
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(cellType: NewsTableViewCell.self)
-       
         tableView.tableFooterView = UIView()
         
-//        title = "Новости"
-        view.backgroundColor = .systemBackground
         createCustomNavigationBar()
         
         dataFetcher.getNews(completion: {[weak self] response in
@@ -50,9 +46,7 @@ final class ViewController: UIViewController {
         if let numbers = response.articles?.count {
             for number in 0...numbers-1 {
                 dataSource.append(NewsTableViewCellModel(title: response.articles?[number].title ?? "", subtitle: response.articles?[number].description ?? "", imageURL:  response.articles?[number].urlToImage ?? ""))
-
             }
-            
         }
         tableView.reloadData()
     }
@@ -63,12 +57,7 @@ final class ViewController: UIViewController {
         self.navigationController!.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.white]
         navigationItem.title = "Новости"
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        
-
-
     }
-    
-    
 }
 
 
@@ -80,7 +69,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(with: NewsTableViewCell.self, for: indexPath)
-
         cell.configureWith(model: dataSource[indexPath.row])
         return cell
     }
@@ -99,7 +87,5 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 120
     }
-    
-    
 }
 

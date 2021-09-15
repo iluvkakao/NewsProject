@@ -69,7 +69,6 @@
 		8807281926D6A20600C414BD = {
 			isa = PBXGroup;
 			children = (
-				88F87B5D26ECAE0F00B956D3 /* news-app-preloader.json */,
 				8807282426D6A20600C414BD /* NewsProject */,
 				8807282326D6A20600C414BD /* Products */,
 				A01181C278D5A928696CCE88 /* Pods */,
@@ -88,6 +87,7 @@
 		8807282426D6A20600C414BD /* NewsProject */ = {
 			isa = PBXGroup;
 			children = (
+				88F87B5F26F250C200B956D3 /* Lottie Files */,
 				8807283926D6A3A400C414BD /* Support Files */,
 				8807284126D6A48300C414BD /* Api Call Files */,
 				8807283A26D6A3C100C414BD /* Service Files */,
@@ -132,6 +132,14 @@
 				8807284226D6A4CD00C414BD /* Source.swift */,
 			);
 			path = "Api Call Files";
+			sourceTree = "<group>";
+		};
+		88F87B5F26F250C200B956D3 /* Lottie Files */ = {
+			isa = PBXGroup;
+			children = (
+				88F87B5D26ECAE0F00B956D3 /* news-app-preloader.json */,
+			);
+			path = "Lottie Files";
 			sourceTree = "<group>";
 		};
 		9C292F6BA766440AFF9353C9 /* Frameworks */ = {
