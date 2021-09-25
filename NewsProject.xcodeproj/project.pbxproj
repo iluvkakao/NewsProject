@@ -90,7 +90,7 @@
 				88F87B5F26F250C200B956D3 /* Lottie Files */,
 				8807283926D6A3A400C414BD /* Support Files */,
 				8807284126D6A48300C414BD /* Api Call Files */,
-				8807283A26D6A3C100C414BD /* Service Files */,
+				8807283A26D6A3C100C414BD /* Network Service Files */,
 				8807282926D6A20600C414BD /* ViewController.swift */,
 				8807282B26D6A20600C414BD /* Main.storyboard */,
 				8807284A26D6AA5D00C414BD /* NewsTableViewCell.swift */,
@@ -114,14 +114,14 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
-		8807283A26D6A3C100C414BD /* Service Files */ = {
+		8807283A26D6A3C100C414BD /* Network Service Files */ = {
 			isa = PBXGroup;
 			children = (
 				8807283B26D6A3DF00C414BD /* DataFetcherService.swift */,
 				8807283D26D6A43300C414BD /* NetworkDataFetcher.swift */,
 				8807283F26D6A45A00C414BD /* NetworkService.swift */,
 			);
-			path = "Service Files";
+			path = "Network Service Files";
 			sourceTree = "<group>";
 		};
 		8807284126D6A48300C414BD /* Api Call Files */ = {
