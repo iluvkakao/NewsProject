@@ -23,7 +23,6 @@
 		8807284C26D6AA5D00C414BD /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8807284A26D6AA5D00C414BD /* NewsTableViewCell.swift */; };
 		8807284D26D6AA5D00C414BD /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8807284B26D6AA5D00C414BD /* NewsTableViewCell.xib */; };
 		88F87AAD26E4EDC800B956D3 /* FirstThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F87AAB26E4EDC800B956D3 /* FirstThemeViewController.swift */; };
-		88F87AAE26E4EDC800B956D3 /* FirstThemeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F87AAC26E4EDC800B956D3 /* FirstThemeViewController.xib */; };
 		88F87B5E26ECAE0F00B956D3 /* news-app-preloader.json in Resources */ = {isa = PBXBuildFile; fileRef = 88F87B5D26ECAE0F00B956D3 /* news-app-preloader.json */; };
 		CC9A9B5ADDFD04D76AA874B3 /* Pods_NewsProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6F14E8774A7B1A9C419B8F /* Pods_NewsProject.framework */; };
 /* End PBXBuildFile section */
@@ -49,7 +48,6 @@
 		8807284A26D6AA5D00C414BD /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		8807284B26D6AA5D00C414BD /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		88F87AAB26E4EDC800B956D3 /* FirstThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstThemeViewController.swift; sourceTree = "<group>"; };
-		88F87AAC26E4EDC800B956D3 /* FirstThemeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstThemeViewController.xib; sourceTree = "<group>"; };
 		88F87B5D26ECAE0F00B956D3 /* news-app-preloader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "news-app-preloader.json"; sourceTree = "<group>"; };
 		FC6F14E8774A7B1A9C419B8F /* Pods_NewsProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,7 +94,6 @@
 				8807284A26D6AA5D00C414BD /* NewsTableViewCell.swift */,
 				8807284B26D6AA5D00C414BD /* NewsTableViewCell.xib */,
 				88F87AAB26E4EDC800B956D3 /* FirstThemeViewController.swift */,
-				88F87AAC26E4EDC800B956D3 /* FirstThemeViewController.xib */,
 				8807283326D6A20700C414BD /* Info.plist */,
 			);
 			path = NewsProject;
@@ -220,7 +217,6 @@
 			files = (
 				8807283226D6A20700C414BD /* LaunchScreen.storyboard in Resources */,
 				8807282F26D6A20700C414BD /* Assets.xcassets in Resources */,
-				88F87AAE26E4EDC800B956D3 /* FirstThemeViewController.xib in Resources */,
 				88F87B5E26ECAE0F00B956D3 /* news-app-preloader.json in Resources */,
 				8807284D26D6AA5D00C414BD /* NewsTableViewCell.xib in Resources */,
 				8807282D26D6A20600C414BD /* Main.storyboard in Resources */,
