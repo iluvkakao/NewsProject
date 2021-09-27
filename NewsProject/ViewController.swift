@@ -53,7 +53,6 @@ final class ViewController: UIViewController {
     
     func createCustomNavigationBar() {
         self.navigationController!.navigationBar.barStyle = .black
-        self.navigationController!.navigationBar.isTranslucent = false
         self.navigationController!.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.white]
         navigationItem.title = "Новости"
         self.navigationController?.navigationBar.prefersLargeTitles = true
@@ -77,9 +76,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         tableView.deselectRow(at: indexPath, animated: true )
         let articles = newsResponse?.articles
         let article = articles?[indexPath.row]
-        guard let url = URL(string: article?.url ?? "") else{
-            return
-        }
+        guard let url = URL(string: article?.url ?? "") else{ return }
         let VC = SFSafariViewController(url: url)
         present(VC, animated: true, completion: nil)
         
